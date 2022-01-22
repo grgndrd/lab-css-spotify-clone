@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
 /*
 Colors:
 
@@ -6,3 +7,136 @@ Green: #00B172
 White: #FFF
 
 */
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  margin-left: 10px;
+}
+
+/* landing page / navbar */
+
+.landing-page {
+  display: inline-block;
+  background-image: url(/images/landing.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 700px;
+}
+
+.navbar {
+  background-color: #fff;
+  font-size: 1.2rem;
+  padding-top: 10px;
+}
+
+.navbar-list {
+  float: right;
+  margin-right: 30px;
+}
+
+.spotify-logo {
+  width: 15%;
+  height: 15%;
+}
+
+.big-letter-landing {
+  text-align: center;
+  font-size: 80px;
+  color: #fff;
+  line-height: 300px;
+}
+
+.small-letter-landing {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+
+/* info section */
+
+.centered-letters {
+  text-align: center;
+  color: black;
+}
+
+.small-pics {
+  width: 20%;
+  height: 20%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.green-text {
+  color: #00b172;
+  text-align: center;
+}
+
+.icon-div {
+  margin-top: 5%;
+  width: 33%;
+}
+
+.img-container {
+  text-align: center;
+  display: block;
+}
+
+.white-container {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+/* green box */
+
+.green {
+  background-color: #00b172;
+  width: 100%;
+  height: 700px;
+  padding-top: 4%;
+}
+
+.white-text {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.spotify-white {
+  width: 10%;
+  height: auto;
+  position: relative;
+  left: 500px;
+  bottom: 700px;
+}
+
+.kanyewest-isbad {
+  width: 25%;
+  position: relative;
+  bottom: 517px;
+  left: 600px;
+}
+
+.border-bottom {
+  content: "";
+  display: block;
+  width: 40%;
+  padding-top: 20px; 
+  border-bottom: 4px solid #fff;
+}
